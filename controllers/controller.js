@@ -1,0 +1,13 @@
+angular.module('raul')
+.controller('IndexCtrl',function($scope){
+	$scope.imgBuyNutella=[
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"},
+		{imagen:"nutella.jpg",precio:"10€"}
+	]
+})

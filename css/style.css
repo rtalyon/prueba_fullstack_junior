@@ -1,0 +1,32 @@
+.textInfo, .textHead, .textSlashMob{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.textHead{
+	width: 75%;
+	margin-left: 12.5%;
+}
+.textCancel{
+	background-color: #BCBCBC;
+	color: #FFFFFF;
+}
+.cursor{
+	cursor:pointer;
+}
+
+
+@media (max-width: 575px){
+	
+}
+@media (min-width: 576px) and (max-width: 767px){
+	
+}
+@media (min-width: 768px) and (max-width: 991px){
+	
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 1200px){
+
+}

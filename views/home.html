@@ -1,0 +1,46 @@
+<div class="row">
+	<div ng-repeat="imgNutella in imgBuyNutella" class="col-12 col-md-3 my-3">
+		<div class="card-group">
+		  	<div class="card">
+				<img ng-src="img/{{imgNutella.imagen}}" alt="{{imgNutella.imagen}}" class="img-fluid imgPadMarg">
+				 <div class="card-header text-center textHead">
+				 	<small class="font-weight-bold">Nutella</small>
+				</div>
+			    <div class="card-body text-center">
+			      	<p class="card-text">{{imgNutella.precio}}</p>
+			    </div>
+			    <div class="card-footer text-center textInfo cursor" data-toggle="modal" data-target="#buyNutella">
+			     	<small class="font-weight-bold">BUY</small>
+			    </div>
+		  	</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="buyNutella" tabindex="-1" role="dialog" aria-labelledby="buyNutella" aria-hidden="true">
+	<div class="modal-dialog modal-dialog2 modal-dialog-centered col-12" role="document">
+	    <div class="modal-content">
+	      	<div class="modal-body">
+	      		<div class="container-fluid">
+					<div class="row">
+						<form name="nutella" id="nutella">
+							<div class="form-row">
+								<div class="form-group col-12 mb-3 text-center">
+									<p>Do you wanna buy it?</p>
+							  	</div>
+							  	<div class="form-group col-12">
+							    	<input type="text" class="form-control" id="inputUsername" placeholder="Username" name="inputUsername" required="">
+							  	</div>
+							  	<div class="form-group col-12" >
+							    	<input type="text" class="form-control" id="inputPassword" placeholder="Password" name="inputPassword" required="">								    
+							  	</div>
+							</div>
+						</form>
+						<button type="button" class="btn textCancel col-6 font-weight-bold" data-dismiss="modal">CANCEL</button>
+					  	<button type="button" class="btn textInfo col-6 font-weight-bold">CONFIRM</button>
+					</div>
+    			</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
